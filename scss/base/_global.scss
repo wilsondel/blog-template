@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+ 
+a {
+  text-decoration: none;
+  display: inline;
+  color: $color-black;
+}
+
+header {
+  width: $width-total;
+  height: 140px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+  width: $width-total;
+  height: 50px;
+  display: grid;
+  background-color: $color-primary;
+}
+
+header .header-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  justify-content: space-between;
+  justify-self: end;
+  align-items: center;
+  margin-right: 50px;
+}

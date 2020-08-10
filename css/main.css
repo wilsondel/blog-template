@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap");
 body {
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -23,6 +24,16 @@ header .icons span {
 nav .nav-logo-container img {
   width: 220px;
   margin-top: 10px;
+}
+
+.home-main-button {
+  width: 115px;
+  height: 100%;
+  background-color: #47cfac;
+  border: 1px solid white;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px;
 }
 
 header {

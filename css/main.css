@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap");
-body {
-  font-family: "Roboto Mono", monospace;
-  margin: 0;
-  padding: 0;
+.home-body {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -106,5 +109,46 @@ nav .profile-link a {
   font-weight: 700px;
   letter-spacing: 10px;
   color: white;
+  text-align: center;
+}
+
+.blogs-main-new {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.blogs-main {
+  display: grid;
+}
+
+.blogs-news-container {
+  background-color: #e7eaee;
+  padding: 0 50px 40px;
+}
+
+.blogs-news-img-container {
+  grid-column: 1;
+}
+
+.blogs-news-img-container img {
+  width: 80%;
+}
+
+.blogs-new-info-container {
+  grid-column: 2;
+}
+
+.blogs-news-info-container p {
+  margin-bottom: 35px;
+}
+
+.blogs-post-container {
+  padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+  border-bottom: 1px solid #e3e6eb;
+  padding-bottom: 20px;
   text-align: center;
 }

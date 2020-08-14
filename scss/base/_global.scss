@@ -1,12 +1,19 @@
-body {
-  font-family: $font-second;
-  margin: 0;
-  padding: 0;
+%spacePosition {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+body {
+  font-family: $font-second;
+  margin: 0;
+  padding: 0;
+}
+
+.home-body {
+  @extend %spacePosition
 }
  
 a {

@@ -233,3 +233,7 @@ footer p {
 .contact-main-container .contact-left img, .contact-main-container .contact-right img {
   width: 200px;
 }
+
+.blogpost-title {
+  text-align: center;
+}

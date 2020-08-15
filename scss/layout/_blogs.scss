@@ -27,30 +27,29 @@ $padding-spaces: (
 
 .blogs-news-img-container {
   grid-column: 1;
-}
-
-.blogs-news-img-container img {
-  width: 90%;
+  & img {
+    width: 90%;
+  }
 }
 
 .blogs-news-info-container {
   grid-column: 2;
+  & p {
+    margin-bottom: 35px;
+  }
 }
 
-.blogs-news-info-container p {
-  margin-bottom: 35px;
-}
 
 .blogs-posts-container {
   padding: 0 map-get($padding-spaces, right ) map-get($padding-spaces , down );
   text-align: center;
+  & h3 {
+    border-bottom: 4px solid darken($color-lightGray, $amount: 1);
+    padding-bottom: 20px;
+    text-align: center;
+  }
 }
 
-.blogs-posts-container h3 {
-  border-bottom: 4px solid darken($color-lightGray, $amount: 1);
-  padding-bottom: 20px;
-  text-align: center;
-}
 
 .blogs-posts-container .post-container {
   display: inline-block;

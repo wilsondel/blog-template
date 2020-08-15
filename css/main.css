@@ -213,7 +213,6 @@ footer p {
 
 .contact-main-container {
   display: grid;
-  grid-template: 1/2;
   grid-template-areas: "contact write";
   justify-items: center;
   align-items: center;
@@ -221,13 +220,16 @@ footer p {
   background-color: #e6e9ed;
 }
 .contact-main-container .contact-left, .contact-main-container .contact-right {
-  width: 300px;
   display: flex;
+  justify-content: center;
 }
 .contact-main-container .contact-left a, .contact-main-container .contact-right a {
   border-bottom: 1.3px solid black;
   font-size: 15px;
 }
-.contact-main-container img {
-  width: 100%;
+.contact-main-container .contact-left div, .contact-main-container .contact-right div {
+  width: 200px;
+}
+.contact-main-container .contact-left img, .contact-main-container .contact-right img {
+  width: 200px;
 }

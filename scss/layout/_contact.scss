@@ -1,0 +1,22 @@
+// CONTACT
+
+.contact-main-container {
+  display: grid;
+  grid-template: 1 /2;
+  grid-template-areas: "contact write";
+  justify-items: center;
+  align-items: center;
+  padding: 45px;
+  background-color: $color-lightGray;
+  & .contact-left , & .contact-right {
+    width: 300px;
+    display: flex; 
+  }
+  & .contact-left a , & .contact-right a {
+    border-bottom: 1.3px solid black;
+    font-size: 15px;
+  }
+  & img {
+    width: 100%;
+  }
+}

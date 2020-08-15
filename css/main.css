@@ -210,3 +210,24 @@ footer p {
 .blogpost-main-container article h1 {
   font-size: 30px;
 }
+
+.contact-main-container {
+  display: grid;
+  grid-template: 1/2;
+  grid-template-areas: "contact write";
+  justify-items: center;
+  align-items: center;
+  padding: 45px;
+  background-color: #e6e9ed;
+}
+.contact-main-container .contact-left, .contact-main-container .contact-right {
+  width: 300px;
+  display: flex;
+}
+.contact-main-container .contact-left a, .contact-main-container .contact-right a {
+  border-bottom: 1.3px solid black;
+  font-size: 15px;
+}
+.contact-main-container img {
+  width: 100%;
+}

@@ -143,7 +143,7 @@ nav .profile-link a {
 }
 
 .blogs-news-img-container img {
-  width: 80%;
+  width: 90%;
 }
 
 .blogs-news-info-container {
@@ -194,4 +194,11 @@ footer {
 footer p {
   color: white;
   margin-top: 30px;
+}
+
+.blogpost-img-container {
+  padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+  width: 100%;
 }

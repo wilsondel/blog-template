@@ -239,7 +239,7 @@ footer p {
 }
 .blogs-news-img-container img {
   width: 100%;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .blogpost-title {
@@ -253,4 +253,38 @@ footer p {
 
 .blogpost-project p {
   width: 250px;
+}
+
+@media (max-width: 1021px) {
+  .blogs-main-new {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+  }
+
+  .blogs-news-img-container {
+    grid-row: 2;
+    justify-self: center;
+  }
+  .blogs-news-img-container img {
+    border-radius: 5px;
+  }
+
+  .blogs-news-info-container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .blogs-posts-container .post-container {
+    max-width: 45%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .blogs-posts-container .post-container {
+    max-width: 95%;
+  }
+
+  .post-container .blogs-button {
+    display: flex;
+    justify-content: center;
+  }
 }

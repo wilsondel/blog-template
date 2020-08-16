@@ -234,6 +234,23 @@ footer p {
   width: 200px;
 }
 
+.blogs-news-img-container {
+  width: 70%;
+}
+.blogs-news-img-container img {
+  width: 100%;
+  border-radius: 50px;
+}
+
 .blogpost-title {
   text-align: center;
+}
+
+.blogpost-project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blogpost-project p {
+  width: 250px;
 }
